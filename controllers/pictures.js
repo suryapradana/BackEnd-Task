@@ -9,7 +9,7 @@ module.exports = {
     index: (req, res, nex) => {
         Picture.find().exec().then(pictureData => {
             res.status(200).json({
-                message: 'handling show all data to /users',
+                message: 'handling show all data to /pictures',
                 count: pictureData.length,
                 showPicture: pictureData
             });

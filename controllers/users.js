@@ -108,7 +108,7 @@ module.exports = {
     },
 
     /**
-     * store/post new picture to pictures, related to id
+     * store/post new picture to pictures, related to user
      * users has many pictures
      */
     storeNewPicture: async (req, res, next) => {
